@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+$purple:#755CDE;
+$black:#030303;
+$orange:#F6A560;
+$pink:#F39E9E;
+$red:#EB7565;
+$green:#61C4B7;
+$gray:#7A746E;
+$violet:#552049;
+$beg:#FFF7F0;
+$bgColor:#FFF7EF;
+$fontHeadingLarge:56px;
+$fontHeadingMedium:40px;
+$fontHeadingSmall:32px;
+$fontBody:18px;
+
+.fBold{
+    font-weight:bold
+}
+
+.fMedium{
+        font-weight:500
+}
+
+.fHL{
+    font-size: $fontHeadingLarge;
+        @extend .fBold    
+}
+
+.fHM{
+    font-size: $fontHeadingMedium;
+            @extend .fBold
+}
+
+.fHS{
+    font-size: $fontHeadingSmall;
+            @extend .fBold
+}
+
+.fB{
+    font-size: $fontBody;
+}
+
+.button{
+  padding:.5rem 1.5rem;
+  border-radius: .5rem;
+   color:$beg;
+}
+
+.mainBtn{
+    @extend .button;
+    background-color: $black;
+    &:hover{
+        background-color: $purple;
+    }
+}
+
+.secondaryBtn{
+    @extend .button;
+    background-color: $red;
+    &:hover{
+        background-color: $orange;
+    }
+}
+
+.arrow{
+    padding:1rem;
+    border-radius: 50%; 
+    background-color: $black;
+    color:$beg;
+    &:hover{
+        background-color: $purple; 
+    }
+}
+
+body{
+    background-color: $bgColor !important;
+}
