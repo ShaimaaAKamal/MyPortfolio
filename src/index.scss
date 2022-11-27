@@ -51,6 +51,25 @@ $fontBody:18px;
 .textGray{
     color:$gray;
 }
+.bgPurple{
+    background-color: $purple;
+}
+.bgOrange{
+    background-color: $orange;
+}
+
+.bgPink{
+    background-color: $pink;
+}
+.bgRed{
+    background-color: $red;
+}
+.bgGreen{
+    background-color: $green;
+}
+.bgViolet{
+    background-color: $violet;
+}
 
 
 body{
@@ -69,15 +88,15 @@ body{
             @extend .button;
             background-color: $black;
             &:hover{
-                background-color: $purple;
+               @extend .bgPurple;
             }
         }
 
         .secondaryBtn{
             @extend .button;
-            background-color: $red;
+            @extend .bgRed;
             &:hover{
-                background-color: $orange;
+                @extend .bgOrange;
             }
         }
 
@@ -88,6 +107,18 @@ body{
             color:$beg;
             &:hover{
                 background-color: $purple; 
+            }
+        }
+      
+}
+
+
+@media screen and (min-width:768px){
+      .Graphic{
+            height: 100%;
+            h5{
+              position: absolute;
+              bottom:0;
             }
         }
 }
