@@ -1,4 +1,5 @@
 import Heading from "../Header/Heading";
+import Skills from '../Skills/Skills'
 function App() {
   return (
     <div className="App">
@@ -8,6 +9,7 @@ function App() {
           <h1 className="fHL">Design solutions made easy</h1>
           <p className="small textGray px-5 px-md-4">With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.</p>
         </header>
+        <Skills/>
       </div>
     </div>
   );
