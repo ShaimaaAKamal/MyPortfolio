@@ -117,8 +117,8 @@ body{
 
         
         .owl-theme .owl-nav{
-            margin-top:1.5rem !important; 
-            margin-bottom:1.5rem !important; 
+            margin-top:3rem !important; 
+            margin-bottom:3rem !important; 
         }
 
         .owl-theme .owl-nav [class*='owl-'] {
@@ -129,6 +129,11 @@ body{
           color: unset;
           }
         }
+
+        .headWidth{
+            width:90%
+        }
+
       
 }
 
@@ -141,6 +146,13 @@ body{
               bottom:0;
             }
         }
+        .contact{
+            width:70%;
+        }
+        .contactParag{
+            width:90%
+        }
+
        
 }
 
@@ -149,6 +161,20 @@ body{
           .owl-carousel .owl-stage-outer{
             overflow: hidden;
             left:0;
+        }
+
+        .headWidth{
+            width:80%
+        }
+
+         
+      }
+}
+
+@media screen and (min-width:1200px){
+      body{
+        .headWidth{
+            width:60%
         }
 
          
