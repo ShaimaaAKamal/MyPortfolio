@@ -109,6 +109,26 @@ body{
                 background-color: $purple; 
             }
         }
+
+        .owl-carousel .owl-stage-outer{
+            overflow: visible;
+            left:calc(22% - 20px);
+        }
+
+        
+        .owl-theme .owl-nav{
+            margin-top:1.5rem !important; 
+            margin-bottom:1.5rem !important; 
+        }
+
+        .owl-theme .owl-nav [class*='owl-'] {
+          background: transparent; 
+          color: unset;
+          &:hover{
+             background: transparent; 
+          color: unset;
+          }
+        }
       
 }
 
@@ -121,4 +141,16 @@ body{
               bottom:0;
             }
         }
+       
+}
+
+@media screen and (min-width:992px){
+      body{
+          .owl-carousel .owl-stage-outer{
+            overflow: hidden;
+            left:0;
+        }
+
+         
+      }
 }
