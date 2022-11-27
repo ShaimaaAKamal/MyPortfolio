@@ -41,39 +41,49 @@ $fontBody:18px;
 .fB{
     font-size: $fontBody;
 }
-
-.button{
-  padding:.5rem 1.5rem;
-  border-radius: .5rem;
-   color:$beg;
-}
-
-.mainBtn{
-    @extend .button;
+.bgBlack{
     background-color: $black;
-    &:hover{
-        background-color: $purple;
-    }
 }
-
-.secondaryBtn{
-    @extend .button;
-    background-color: $red;
-    &:hover{
-        background-color: $orange;
-    }
-}
-
-.arrow{
-    padding:1rem;
-    border-radius: 50%; 
-    background-color: $black;
+.textBg{
     color:$beg;
-    &:hover{
-        background-color: $purple; 
-    }
 }
+
 
 body{
     background-color: $bgColor !important;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    .button{
+        padding:.5rem 1.5rem;
+        border-radius: 1.5rem;
+        font-size: 14px;
+        font-weight: 400;
+        color:$beg;
+        border:none;
+        }
+
+        .mainBtn{
+            @extend .button;
+            background-color: $black;
+            &:hover{
+                background-color: $purple;
+            }
+        }
+
+        .secondaryBtn{
+            @extend .button;
+            background-color: $red;
+            &:hover{
+                background-color: $orange;
+            }
+        }
+
+        .arrow{
+            padding:1rem;
+            border-radius: 50%; 
+            background-color: $black;
+            color:$beg;
+            &:hover{
+                background-color: $purple; 
+            }
+        }
 }
