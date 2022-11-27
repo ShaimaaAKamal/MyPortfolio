@@ -5,7 +5,7 @@ export default function
 () {
   return (
     <div className='row gy-4 gx-5 py-5 my-5 align-items-center' >
-       <div className='col-md-6 col-xl-5 col-8 mx-auto'>
+       <div className='col-md-6 col-xl-5 col-10  mx-auto'>
           <div>
              <img src={Image} alt="userImage" className='w-100'/>
            </div>
