@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from '../../assets/image-amy.webp'
 
-export default function 
-() {
+export default function Info() {
   return (
+    <div className="container-lg px-sm-5">
     <div className='row gy-4 gx-5 py-5 my-5 align-items-center' >
        <div className='col-md-6 col-xl-5 col-10  mx-auto'>
           <div>
@@ -17,6 +17,7 @@ export default function
                 <button className='secondaryBtn'>Free Consultation</button>
              </div>
         </div>
+    </div>
     </div>
   )
 }
