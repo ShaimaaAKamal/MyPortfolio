@@ -1,9 +1,10 @@
-
-
+import Heading from "../Header/Heading";
 function App() {
   return (
     <div className="App">
-      <h1>App</h1>
+      <div className="container-lg px-sm-5">
+        <Heading/>
+      </div>
     </div>
   );
 }
